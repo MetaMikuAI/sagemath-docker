@@ -1,7 +1,7 @@
 
 # SageMath Docker
 
-本项目为 SageMath 的个人 Docker 镜像，集成了常用数学库和 CTF Crypto 相关插件
+[本项目](https://github.com/MetaMikuAI/sagemath-docker) 为 SageMath 的个人 Docker 镜像，集成了常用数学库和 CTF Crypto 相关插件
 
 ## 构建镜像
 

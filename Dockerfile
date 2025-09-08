@@ -97,6 +97,8 @@ COPY ./sources/lattice-based-cryptanalysis-v0.1.0.tar.gz /home/sage/
 RUN cd /home/sage/ && \
     tar -xvzf lattice-based-cryptanalysis-v0.1.0.tar.gz && \
     rm lattice-based-cryptanalysis-v0.1.0.tar.gz
-ENV PYTHONPATH="/home/sage/lattice-based-cryptanalysis:$PYTHONPATH"
+ENV PYTHONPATH="/home/sage/lattice-based-cryptanalysis-0.1.0:$PYTHONPATH"
+
+COPY ./README.md /home/sage/
 
 CMD ["sage", "--notebook", "jupyter", "--ip=0.0.0.0"]
