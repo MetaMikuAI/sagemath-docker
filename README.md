@@ -18,6 +18,14 @@ docker run -it -p 8888:8888 --name metamiku_sagemath_10.7 metamiku/sagemath:10.7
 
 访问容器内打印的地址 (如 http://127.0.0.1:8888/tree?token=010b95173ebdf0b64b64890382f5cd0fa8a03319eb686ec0) 即可使用 Jupyter Notebook。
 
+## pull from dockerhub
+
+您也可以直接拉取编译好的镜像
+
+```powershell
+docker pull metamiku/sagemath:10.7
+```
+
 ## 依赖项目
 
 | 项目        | 版本         | 协议 | 地址 |
